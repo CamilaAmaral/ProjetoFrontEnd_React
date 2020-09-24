@@ -1,0 +1,158 @@
+/* Reset */
+* {margin:0; padding:0;}
+
+/* Definindo a fonte para os elementos */
+h1, h2, h3, h4, h5, h6, p, input, textarea, select, li, table {margin:20px; font-family:'Open Sans', sans-serif;}
+
+/* Centralizar o conteúdo */
+.container {max-width:1180px; margin:0 auto;}
+
+/* Topo da página e logotipo */
+.topo {width:100%; height:70px; background:#fff;}
+.logo {margin-top:10px; float:left;}
+
+/* Menu */
+.menu {margin-top:23px; float:right;}
+.menu ul li {list-style:none; display:inline; margin:0 5px; font-size:18px;}
+.menu ul li a {text-decoration:none; color:#333;}
+.menu ul li a:hover {text-decoration:underline; color:orange;}
+
+/* Título */
+.pagina-titulo {width:100%; background-color:orange;}
+.pagina-titulo h1 {padding:15px 0; color:white; text-align:center; font-size:50px; text-transform:uppercase;}
+
+/* Subtítulos */
+.titulo-modulo h2 {font-size:38px; text-transform:uppercase; color:#333; text-align:center;}
+
+/* Módulo "Sobre a cidade" */
+/* .pagina-descricao {width:100%; padding:60px 0; background-color:#f3f3f3; background-image:url(../imagens/icone-marca-dagua.png); background-repeat:no-repeat; background-position:right bottom}
+.pagina-descricao-texto{margin-top:30px; font-size:18px;} */
+
+/* imgs */
+
+.imgs{
+    text-align: center;
+   }
+
+.img{
+    margin: 20px 20px 0 20px;
+    /* transition: transform 3.2s ease 0s, filter 0.5s ease 0s; */
+    /* transition: transform .5s ease; */
+    transition:all 50ms linear;
+    border-radius: 10px;
+    /* border-radius: 150px; */
+    /* border: blue solid; */
+}
+
+.img:hover{
+     /* transition: transform 3.2s ease 0s, filter 0.5s ease 0s; */
+    transform: scale(1.1);
+}
+
+figure {
+    display: inline-block;
+    /* height: 300px; /* Modify this according to your need */
+    /* overflow: hidden;
+    border: red solid;  */
+}
+
+figcaption{
+    /* margin-top: 5px; */
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;    
+}
+
+footer {
+    background-color: orange;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+.laranja {    
+    background-color: orange;
+}
+
+.h1, h1, .h2, h2 .h3, h3{
+    font-family:'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.h2, h2{
+    font-size:38px;
+    margin-bottom: 50px;
+    
+}
+.botao-login{
+    position:fixed;
+    top:5px;
+    /* right:5px;  */
+    z-index:300; 
+    cursor:pointer;
+}
+.botao-login-item {
+    width:40px;
+    height:40px;
+    position:relative;
+    top:0;
+    right:0;
+    background-color:#ffa400;
+    border-radius:50%;
+    text-align:center;
+    font-size:40px;
+    z-index:300;
+    line-height:25px;
+}
+
+.botao-login-abrir{width:250px; height:auto; padding:10px; background:#fff; visibility:hidden; opacity:0; border-radius:5px; box-shadow:0 0 5px #888; position:absolute; top:115%; left:0; transition:all 200ms linear;}
+
+.botao-login-fechar {width:30px; height:30px; background:#ff0000; color:#fff; position:absolute; top:2px; right:2px; font-weight:bold; border-radius:50%; text-align:center; line-height:25px;}
+
+.loginAberto{visibility:visible; opacity:1; top:110%;}
+
+.login-form {width:100%; border:0; padding:5px; border-bottom:2px solid #ffa400;}
+.login-form:focus {outline:none;}
+.login-botao {width:100%; background:orange; color:#fff; border:0;}
+.form-container2 {margin:5px 0;}
+
+.esconder{
+    visibility: hidden;
+}
+
+.redes{
+    left: 100px;
+}
+
+.redes span{
+    margin: 30px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    margin: 20px;
+}
+
+.contato {
+    list-style: none;
+    padding-top: -10px;
+    float: left;
+    font-size: 14px;
+}
+
+.orgao{
+    vertical-align: middle;
+}
+
+.orgao p{
+    font-size:16px;
+    text-align: center;
+}
+
+.contato a{
+    color:black;
+}
+
